@@ -1,0 +1,429 @@
+/* responsive all devices */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-brand {
+
+        margin-right: 0 !important;
+    }
+
+    .bars {
+        color: #fff;
+    }
+
+
+    .navbar-nav {
+        text-align: center;
+        background: goldenrod;
+        border-radius: 10px;
+    }
+
+
+
+
+    .nav-link:hover::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0 !important;
+        width: 100% !important;
+        height: 2px;
+        background: #744fa0;
+        margin-bottom: 8px;
+
+    }
+
+    .btn {
+        margin-bottom: 10px;
+    }
+
+    /* header part end */
+    /* banar part start  */
+
+    .banar_overly {
+        
+        padding: 150px 0 50px !important;
+       
+    }
+
+    #about_us_part {
+        padding: 24px 0 8px !important;
+    }
+    .banar_text_part h1 {
+        text-align: center;
+    }
+
+    .banar_text_part h2 {
+        font-size: 30px !important;
+        text-align: center;
+
+    }
+
+
+    .banar_text_part h2::after {
+
+        width: 100% !important;
+
+    }
+
+    .banar_text_part p {
+
+        padding-left: 0 !important;
+        text-align: center;
+    }
+
+
+    .banar_link_button ul li a i {
+
+        visibility: hidden;
+    }
+
+
+
+    .banar_button_part {
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .banar_button_part a {
+        margin-top: 10px;
+    }
+
+
+
+    /* banar part end */
+/* service part start  */
+
+.service_midle_part img{
+    height: 300px;
+}
+#about_us_part {
+	padding: 20px 0 40px;
+}
+.about_us_right img{
+
+	width: 80%;
+	margin-top: 10px;
+}
+
+.about_us_left p,h6 {
+	
+	padding: 0 !important;
+	
+}
+/* service part end */
+/* other part  */
+
+.service_heading h2 {
+	line-height: 30px;
+}
+
+
+.long::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	width: 270px !important;
+	background: #353535;
+	bottom: 0;
+	left: 0;
+	transition: .5s;
+}
+
+.service_right_part h3 {
+	
+	text-align: center;
+}
+
+
+.service_right_part p {
+	
+	padding-left: 0px !important;
+	text-align: center;
+}
+
+#appon_slider_part {
+	padding: 4px 0;
+	
+}
+
+
+#appon_slider_part {
+	padding: 13px 0 !important;
+	
+}
+/* other end */
+/* slider part start  */
+.slick-slide img {
+	width: 280px !important;
+	
+	margin-left: 20px;
+}
+/* slider part end */
+/* video part start  */
+.appon_video_overly {
+	padding: 150px 0 130px !important;
+}
+/* video part end */
+/* porfolio part start  */
+#appon_pricing_part {
+	padding: 20px 0 20px !important;
+}
+
+.pricing_card_one {
+	margin: 20px 0;
+}
+
+
+/* porfolio part end */
+
+#our_team_part {
+	padding: 0px 0 !important;
+}
+
+.team_identity_text_part p {
+	
+	padding: 0 30px 16px !important;
+}
+
+.top_post p {
+	padding: 0 9px !important;
+	
+}
+
+#appon_input {
+	padding: 20px 0 !important;
+}
+.input_fild input {
+	margin-bottom: 5px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width:320px) and (max-width: 575.98px) {
+    /* header part start  */
+
+    .navbar-brand {
+
+        margin-right: 0 !important;
+    }
+
+    .bars {
+        color: #fff;
+    }
+
+
+    .navbar-nav {
+        text-align: center;
+        background: goldenrod;
+        border-radius: 10px;
+    }
+
+
+
+
+    .nav-link:hover::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0 !important;
+        width: 100% !important;
+        height: 2px;
+        background: #744fa0;
+        margin-bottom: 8px;
+
+    }
+
+    .btn {
+        margin-bottom: 10px;
+    }
+
+    /* header part end */
+    /* banar part start  */
+
+    .banar_overly {
+        
+        padding: 150px 0 50px !important;
+       
+    }
+
+    #about_us_part {
+        padding: 24px 0 8px !important;
+    }
+    .banar_text_part h1 {
+        text-align: center;
+    }
+
+    .banar_text_part h2 {
+        font-size: 30px !important;
+        text-align: center;
+
+    }
+
+
+    .banar_text_part h2::after {
+
+        width: 100% !important;
+
+    }
+
+    .banar_text_part p {
+
+        padding-left: 0 !important;
+        text-align: center;
+    }
+
+
+    .banar_link_button ul li a i {
+
+        visibility: hidden;
+    }
+
+
+
+    .banar_button_part {
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .banar_button_part a {
+        margin-top: 10px;
+    }
+
+
+
+    /* banar part end */
+/* service part start  */
+
+.service_midle_part img{
+    height: 300px;
+}
+#about_us_part {
+	padding: 20px 0 40px;
+}
+.about_us_right img{
+
+	width: 80%;
+	margin-top: 10px;
+}
+
+.about_us_left p,h6 {
+	
+	padding: 0 !important;
+	
+}
+/* service part end */
+/* other part  */
+
+.service_heading h2 {
+	line-height: 30px;
+}
+
+
+.long::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	width: 270px !important;
+	background: #353535;
+	bottom: 0;
+	left: 0;
+	transition: .5s;
+}
+
+.service_right_part h3 {
+	
+	text-align: center;
+}
+
+
+.service_right_part p {
+	
+	padding-left: 0px !important;
+	text-align: center;
+}
+
+#appon_slider_part {
+	padding: 4px 0;
+	
+}
+
+
+#appon_slider_part {
+	padding: 13px 0 !important;
+	
+}
+/* other end */
+/* slider part start  */
+.slick-slide img {
+	width: 280px !important;
+	
+	margin-left: 20px;
+}
+/* slider part end */
+/* video part start  */
+.appon_video_overly {
+	padding: 150px 0 130px !important;
+}
+/* video part end */
+/* porfolio part start  */
+#appon_pricing_part {
+	padding: 20px 0 20px !important;
+}
+
+.pricing_card_one {
+	margin: 20px 0;
+}
+
+
+/* porfolio part end */
+
+#our_team_part {
+	padding: 0px 0 !important;
+}
+
+.team_identity_text_part p {
+	
+	padding: 0 30px 16px !important;
+}
+
+.top_post p {
+	padding: 0 9px !important;
+	
+}
+
+#appon_input {
+	padding: 20px 0 !important;
+}
+.input_fild input {
+	margin-bottom: 5px;
+}
+}
+
+
+
+
+
+/* responsive all devices */
